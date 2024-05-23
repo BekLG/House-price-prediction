@@ -5,8 +5,6 @@ from flask import Flask, render_template, request
 with open('housePricePridictor.pkl','rb') as file:
   lm=pickle.load(file)
 
-# prediction=lm.predict([[-0.915249,0.877002,-0.522275]])
-# print(prediction)
 
 
 app = Flask(__name__)
