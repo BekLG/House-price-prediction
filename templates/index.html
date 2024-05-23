@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>House Price Prediction</title>
+</head>
+<body>
+    <h1>Predict Your House Price</h1>
+    <form method="POST" action="/predict">
+        <label for="avg_area_income">Average Area Income:</label>
+        <input type="text" name="avg_area_income" id="avg_area_income" required><br>
+        <label for="avg_area_house_age">Average Area House Age:</label>
+        <input type="text" name="avg_area_house_age" id="avg_area_house_age" required><br>
+        <label for="avg_area_rooms">Average Area Number of Rooms:</label>
+        <input type="text" name="avg_area_rooms" id="avg_area_rooms" required><br>
+        <button type="submit">Predict Price</button>
+    </form>
+</body>
+</html>
